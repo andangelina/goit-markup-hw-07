@@ -590,14 +590,13 @@ margin-right: 50px;
 
 .subscription-header{
   display: flex;
-
+  margin-left: 93px;
 }
 
 .subscription-form{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 20px;
 }
 
 .subscription__input {
@@ -606,6 +605,8 @@ margin-right: 50px;
   padding-left: 16px;
   height: 50px;
   width: 358px;
+  margin-top: 20px;
+  margin-left:93px;
   font-size: var(--sub-font-size);
   background-color:#2F303A;
   color: var(--light-accent-color);
@@ -634,7 +635,8 @@ margin-right: 50px;
   padding: 10px 0px;
   width: 200px;
   margin-left: 12px;
-  
+  margin-top: 20px;
+}
 
 /*modal styling*/
 
@@ -703,6 +705,10 @@ margin-right: 50px;
   flex-direction: column;
 }
 
+.modal-wrapper{
+  position:relative;
+  margin-bottom: 28px;
+}
 
 .modal-wrapper__text{
   position: absolute;
@@ -713,7 +719,7 @@ margin-right: 50px;
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom:4px;
   font-weight: 400;
   font-size: secondaryFontSize;
   line-height: 14px;
@@ -750,6 +756,7 @@ margin-right: 50px;
 
 .modal-textarea{
   width:100%;
+  margin-bottom: 20px;
   padding: 12px 16px;
   resize:none;
   font-weight: 400;
