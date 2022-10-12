@@ -885,13 +885,13 @@ color: var(--dark-accent-color);
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-description__wrapper:hover 
+.project__link__wrapper:hover 
 .project__overlay 
 {
   transform: translateY(0px);
 }
 
-.project__link:focus 
+.project__link__wrapper:focus 
 .project__overlay 
 {
   transform: translateY(0px);
